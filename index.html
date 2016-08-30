@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Блеск | Главная</title>
-    <link rel="shortcut icon" href="favicon.ico">
+    <title>Орион | Главная</title>
     <link rel="stylesheet" href="css/uikit.min.css">
     <link rel="stylesheet" href="css/components/sticky.min.css">
     <link rel="stylesheet" href="css/components/slider.min.css">
@@ -27,34 +26,31 @@
                     <p>
                     <span>
                         <img src="img/header-icon-phone.png" alt="Телефон" class="uk-hidden-small">
-                        <a href="tel:+7 707 155 22 44">+7 707 155 22 44</a>
+                        <a href="tel:+7 727 329 2363">+7 727 329 2363</a>
                     </span>
-                    <span>
+                        <span>
                         <img src="img/header-icon-mail.png" alt="Электронная почта" class="uk-hidden-small">
-                        <a href="mailto:l-antipod@mail.ru">cc-Blesk@mail.ru</a>
+                        <a href="mailto:ella-kosmo@yandex.kz">ella-kosmo@yandex.kz</a>
                     </span>
                     </p>
                 </div>
                 <nav class="uk-navbar" data-uk-sticky="{getWidthFrom:'.main-section', top:-200, animation: 'uk-animation-slide-top'}">
-                    <ul class="uk-navbar-nav uk-hidden-small" data-uk-scrollspy-nav="{closest:'li', topoffset:-200}">
-                        <li><a href="#mainSection" data-uk-smooth-scroll>Главная</a></li>
-                        <li><a href="#about" data-uk-smooth-scroll="{offset: 60}">О нас</a></li>
+                    <ul class="uk-navbar-nav uk-hidden-small">
+                        <li class="uk-active"><a href="index.html">Главная</a></li>
+                        <li><a href="single-article.html">О нас</a></li>
+                        <li><a href="programs-list.html">Программы</a></li>
+                        <li><a href="training-list.html">Семинары</a></li>
                         <li class="uk-parent" data-uk-dropdown aria-haspopup="true" aria-expanded="false">
-                            <a href="#services" data-uk-smooth-scroll="{offset: 40}">Услуги</a>
+                            <a href="">Материалы</a>
                             <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom" style="top: 40px; left: 0;">
                                 <ul class="uk-nav uk-nav-navbar">
-                                    <li><a href="#">Горничная</a></li>
-                                    <li><a href="#">Горничная в халатике</a></li>
-                                    <li><a href="#">Две горничные</a></li>
-                                    <li><a href="#">Две горничные в халатиках</a></li>
+                                    <li><a href="programs-list.html">Новости</a></li>
+                                    <li><a href="programs-list.html">Книги</a></li>
                                 </ul>
                             </div>
                         </li>
-                        <li><a href="#gallery" data-uk-smooth-scroll="{offset: 40}">Галерея</a></li>
-                        <li><a href="#reviews" data-uk-smooth-scroll="{offset: 40}">Отзывы</a></li>
-                        <li><a href="#news" data-uk-smooth-scroll="{offset: 40}">Новости</a></li>
-                        <li><a href="#faq" data-uk-smooth-scroll="{offset: 40}">F.A.Q.</a></li>
-                        <li><a href="#footer" data-uk-smooth-scroll="{offset: 40}">Контакты</a></li>
+                        <li><a href="reviews.html">Отзывы</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
                     </ul>
                     <a href="#my-id" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
                 </nav>
@@ -62,115 +58,137 @@
                 <div id="my-id" class="uk-offcanvas">
                     <div class="uk-offcanvas-bar">
                         <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
-                            <li><a href="#mainSection" data-uk-smooth-scroll>Главная</a></li>
-                            <li><a href="#about" data-uk-smooth-scroll="{offset: 60}">О нас</a></li>
-                            <li><a href="#services" data-uk-smooth-scroll="{offset: 40}">Услуги</a></li>
-                            <li class="uk-parent" aria-expanded="false">
-                                <a href="#">Список услуг</a>
-                                <ul class="uk-nav-sub">
-                                    <li><a href="#">Горничная</a></li>
-                                    <li><a href="#">Горничная в халатике</a></li>
-                                    <li><a href="#">Две горничные</a></li>
-                                    <li><a href="#">Две горничные в халатиках</a></li>
-                                </ul>
+                            <li class="uk-active"><a href="index.html">Главная</a></li>
+                            <li><a href="single-article.html">О нас</a></li>
+                            <li><a href="programs-list.html">Программы</a></li>
+                            <li><a href="training-list.html">Семинары</a></li>
+                            <li class="uk-parent" data-uk-dropdown aria-haspopup="true" aria-expanded="false">
+                                <a href="">Материалы</a>
+                                <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom" style="top: 40px; left: 0;">
+                                    <ul class="uk-nav uk-nav-navbar">
+                                        <li><a href="programs-list.html">Новости</a></li>
+                                        <li><a href="programs-list.html">Книги</a></li>
+                                    </ul>
+                                </div>
                             </li>
-                            <li><a href="#gallery" data-uk-smooth-scroll="{offset: 40}">Галерея</a></li>
-                            <li><a href="#reviews" data-uk-smooth-scroll="{offset: 40}">Отзывы</a></li>
-                            <li><a href="#news" data-uk-smooth-scroll="{offset: 40}">Новости</a></li>
-                            <li><a href="#faq" data-uk-smooth-scroll="{offset: 40}">F.A.Q.</a></li>
-                            <li><a href="#footer" data-uk-smooth-scroll="{offset: 40}">Контакты</a></li>
+                            <li><a href="reviews.html">Отзывы</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </header>
-        <div class="slogan-and-summary">
-            <p class="slogan part-one">сделай свой дом чище</p>
-            <p class="slogan part-two">вместе с нами</p>
-            <p class="summary">Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem.</p>
+        <div class="uk-slidenav-position" data-uk-slider="{center: true, autoplay: true}">
+
+            <div class="uk-slider-container">
+                <ul class="uk-slider uk-grid-width-medium-1">
+                    <li>
+                        <div class="slogan-and-summary">
+                            <img src="img/orion-shield.png">
+                            <p class="heading">Космоэнергетика</p>
+                            <p>Почему занятия космоэнергетикой улучшают эмоциональное, психическое и физическое здоровье?</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slogan-and-summary">
+                            <img src="img/orion-shield.png">
+                            <p class="heading">Тетахилинг</p>
+                            <p>Как с помощью тетахилинга сохранить
+                                на долгие годы молодость и здоровье?</p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+            <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slider-item="previous"></a>
+            <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slider-item="next"></a>
+
         </div>
     </div>
     <!--КОНЕЦ Главный раздел включая хедер с навбаром-->
 
-    <!--НАЧАЛО разделитель-тень-->
-    <div class="divider-shadow">
-        <img src="img/sections-divider-shadow.png" alt="Разделитель">
-    </div>
-    <!--КОНЕЦ разделитель-тень-->
-
-    <!--НАЧАЛО О нас-->
+    <!--НАЧАЛО Чем мы занимаемяся-->
     <div class="about" id="about">
         <div class="uk-container uk-container-center">
-            <h2>Почему выбирают нас?</h2>
+            <h2>Чем мы занимаемяся?</h2>
             <div class="uk-grid uk-grid-large">
-                <div class="uk-width-medium-1-3">
-                    <img src="img/about-gloves.png">
-                    <h3>Наша компания 5 лет на рынке</h3>
+                <div class="uk-width-medium-1-4">
+                    <img src="img/about-kosmoenergy.png">
+                    <h3>Космоэнергетика</h3>
                     <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem, sitamet dictum velit velit eu magna. </p>
+                    <a href="single-article.html" class="btn">Подробнее</a>
                 </div>
-                <div class="uk-width-medium-1-3">
-                    <img src="img/about-cleaner.png">
-                    <h3>Опытные профессионалы своего дела</h3>
-                    <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem, sitamet dictum velit velit eu magna. </p>
+                <div class="uk-width-medium-1-4">
+                    <img src="img/about-tetahealing.png">
+                    <h3>Тетахилинг</h3>
+                    <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc tellus cursus orci mi iaculis sem, sitamet dictum velit velit eu magna. </p>
+                    <a href="single-article.html" class="btn">Подробнее</a>
                 </div>
-                <div class="uk-width-medium-1-3">
-                    <img src="img/about-floor.png">
-                    <h3>Основная цель это упор на качество
-                    </h3>
+                <div class="uk-width-medium-1-4">
+                    <img src="img/about-psychology.png">
+                    <h3>Психология</h3>
                     <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem, sitamet dictum velit velit eu magna. </p>
+                    <a href="single-article.html" class="btn">Подробнее</a>
+                </div>
+                <div class="uk-width-medium-1-4">
+                    <img src="img/about-quantum.png">
+                    <h3>Квантовое смещение</h3>
+                    <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem, sitamet dictum velit. </p>
+                    <a href="single-article.html" class="btn">Подробнее</a>
                 </div>
             </div>
         </div>
     </div>
-    <!--КОНЕЦ О нас-->
+    <!--КОНЕЦ Чем мы занимаемяся-->
 
-    <!--НАЧАЛО услуги-->
-    <div class="services" id="services">
+    <!--НАЧАЛО programs-->
+    <div class="programs" id="programs">
         <div class="uk-container uk-container-center">
-            <h2>Наши услуги</h2>
+            <h2>Программы</h2>
             <div class="data-uk-slider uk-slidenav-position" data-uk-slider="{autoplay: true}">
                 <div class="uk-slider-container">
                     <ul class="uk-slider uk-grid uk-grid-width-large-1-3 uk-grid-width-medium-1-2 uk-grid-width-small-1-1">
                         <li>
-                            <a href="#">
-                                <img src="img/gallery-example-img1.jpg">
-                                <h3>Уборка коттеджей-1</h3>
+                            <a href="single-program.html">
+                                <div class="img" style="background-image: url('img/gallery-example-img1.jpg')"></div>
+                                <h3>Программа-1</h3>
                                 <p>
                                     Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem.
                                 </p>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <img src="img/gallery-example-img2.jpg">
-                                <h3>Уборка коттеджей-2</h3>
+                            <a href="single-program.html">
+                                <div class="img" style="background-image: url('img/gallery-example-img2.jpg')"></div>
+                                <h3>Программа-2</h3>
                                 <p>
                                     Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem.
                                 </p>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <img src="img/gallery-example-img3.jpg">
-                                <h3>Уборка коттеджей-3</h3>
+                            <a href="single-program.html">
+                                <div class="img" style="background-image: url('img/gallery-example-img3.jpg')"></div>
+                                <h3>Программа-3</h3>
                                 <p>
                                     Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem.
                                 </p>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <img src="img/gallery-example-img4.jpg">
-                                <h3>Уборка коттеджей-4</h3>
+                            <a href="single-program.html">
+                                <div class="img" style="background-image: url('img/gallery-example-img4.jpg')"></div>
+                                <h3>Программа-4</h3>
                                 <p>
                                     Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem.
                                 </p>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <img src="img/gallery-example-img5.jpg">
-                                <h3>Уборка коттеджей-5</h3>
+                            <a href="single-program.html">
+                                <div class="img" style="background-image: url('img/gallery-example-img5.jpg')"></div>
+                                <h3>Программа-5</h3>
                                 <p>
                                     Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem.
                                 </p>
@@ -186,73 +204,61 @@
                 </a>
             </div>
 
-            <!--НАЧАЛО стрый вид страницы услуг (сохранён на всякий случай)-->
-            <!--div class="uk-grid">
-                <div class="column uk-width-medium-4-10">
-                    <img src="img/services-girl.jpg">
-                </div>
-                <div class="column uk-width-medium-6-10">
-                    <h3>Уборка коттеджей</h3>
-                    <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem, sitamet dictum velit velit eu magna.  Fusce tincidunt tellus eget tristique cursus orci miiaculis sem, sit amet dictum velit velit eu magna.  Fusce tincidunt tellus eget tristiqueursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tincidunt telluseget tristique cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fuscetine Fusce tincidunt tellus eget tristiqueursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tincidunt telluseget tristique cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.</p>
-                </div>
-            </div>
-            <div class="uk-grid">
-                <div class="column uk-width-medium-4-10 uk-push-6-10">
-                    <img src="img/services-furniture.jpg">
-                </div>
-                <div class="column uk-width-medium-6-10 uk-pull-4-10">
-                    <h3>Чистка мягкой мебели</h3>
-                    <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem, sitamet dictum velit velit eu magna.  Fusce tincidunt tellus eget tristique cursus orci miiaculis sem, sit amet dictum velit velit eu magna.  Fusce tincidunt tellus eget tristiqueursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tincidunt telluseget tristique cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fuscetine Fusce tincidunt tellus eget tristiqueursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tincidunt telluseget tristique cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.</p>
-                </div>
-            </div-->
-            <!--КОНЕЦ стрый вид страницы услуг (сохранён на всякий случай)-->
-
         </div>
     </div>
-    <!--КОНЕЦ услуги-->
+    <!--КОНЕЦ programs-->
 
-    <!--НАЧАЛО галерея-->
-    <div class="gallery" id="gallery">
+    <!--НАЧАЛО trainings-->
+    <div class="trainings" id="trainings">
         <div class="uk-container uk-container-center">
-            <h2>Наша работа</h2>
+            <h2>Ближайшие семинары</h2>
             <div class="data-uk-slider uk-slidenav-position" data-uk-slider="{autoplay: true}">
                 <div class="uk-slider-container">
                     <ul class="uk-slider uk-grid uk-grid-width-large-1-3 uk-grid-width-medium-1-2 uk-grid-width-small-1-1">
                         <li>
-                            <a href="img/gallery-example-img1.jpg" data-uk-lightbox="{group:'slider-group'}">
-                                <img src="img/gallery-example-img1.jpg">
+                            <a href="single-training.html">
+                                <div class="img" style="background-image: url('img/gallery-example-img1.jpg')"></div>
+                                <h3>Семинар-1</h3>
+                                <p>
+                                    Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem.
+                                </p>
                             </a>
-                            <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem.</p>
                         </li>
                         <li>
-                            <a href="img/gallery-example-img2.jpg" data-uk-lightbox="{group:'slider-group'}">
-                                <img src="img/gallery-example-img2.jpg">
+                            <a href="single-training.html">
+                                <div class="img" style="background-image: url('img/gallery-example-img2.jpg')"></div>
+                                <h3>Семинар-2</h3>
+                                <p>
+                                    Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem.
+                                </p>
                             </a>
-                            <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem.</p>
                         </li>
                         <li>
-                            <a href="img/gallery-example-img3.jpg" data-uk-lightbox="{group:'slider-group'}">
-                                <img src="img/gallery-example-img3.jpg">
+                            <a href="single-training.html">
+                                <div class="img" style="background-image: url('img/gallery-example-img3.jpg')"></div>
+                                <h3>Семинар-3</h3>
+                                <p>
+                                    Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem.
+                                </p>
                             </a>
-                            <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem.</p>
                         </li>
                         <li>
-                            <a href="img/gallery-example-img4.jpg" data-uk-lightbox="{group:'slider-group'}">
-                                <img src="img/gallery-example-img4.jpg">
+                            <a href="single-training.html">
+                                <div class="img" style="background-image: url('img/gallery-example-img4.jpg')"></div>
+                                <h3>Семинар-4</h3>
+                                <p>
+                                    Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem.
+                                </p>
                             </a>
-                            <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem.</p>
                         </li>
                         <li>
-                            <a href="img/gallery-example-img5.jpg" data-uk-lightbox="{group:'slider-group'}">
-                                <img src="img/gallery-example-img5.jpg">
+                            <a href="single-training.html">
+                                <div class="img" style="background-image: url('img/gallery-example-img5.jpg')"></div>
+                                <h3>Семинар-5</h3>
+                                <p>
+                                    Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem.
+                                </p>
                             </a>
-                            <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem.</p>
-                        </li>
-                        <li>
-                            <a href="img/gallery-example-img6.jpg" data-uk-lightbox="{group:'slider-group'}">
-                                <img src="img/gallery-example-img6.jpg">
-                            </a>
-                            <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem.</p>
                         </li>
                     </ul>
                 </div>
@@ -263,100 +269,66 @@
                     <img src="img/arrow-white-next.png" alt="Следущее фото">
                 </a>
             </div>
+
         </div>
     </div>
-    <!--КОНЕЦ галерея-->
+    <!--КОНЕЦ trainings-->
 
-    <!--НАЧАЛО отзывы-->
-    <div class="reviews uk-container uk-container-center" id="reviews">
-        <h2>Клиенты о нас</h2>
-        <div class="data-uk-slider uk-slidenav-position" data-uk-slider>
-            <div class="uk-slider-container">
-                <ul class="uk-slider uk-grid uk-grid-width-large-1-3 uk-grid-width-medium-1-2 uk-grid-width-small-1-1">
-                    <li>
-                        <a href="#reviews-modal" data-uk-modal="{center:true}" data-video-src="https://www.youtube.com/embed/vpUWKReBXok" class="video-modal-caller">
-                            <img src="img/reviews-example1.jpg">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#reviews-modal" data-uk-modal="{center:true}" data-video-src="https://www.youtube.com/embed/tTSpEGpSQt8" class="video-modal-caller">
-                            <img src="img/reviews-example2.jpg">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#reviews-modal" data-uk-modal="{center:true}" data-video-src="https://www.youtube.com/embed/hQScxYC8qwg" class="video-modal-caller">
-                            <img src="img/reviews-example3.jpg">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <a href="" class="uk-slidenav uk-slidenav-previous" data-uk-slider-item="previous">
-                <img src="img/arrow-blue-prev.png" alt="Предыдущее фото">
-            </a>
-            <a href="" class="uk-slidenav uk-slidenav-next" data-uk-slider-item="next">
-                <img src="img/arrow-blue-next.png" alt="Следущее фото">
-            </a>
-        </div>
-    </div>
-    <!--КОНЕЦ отзывы-->
-
-    <!--НАЧАЛО оставить заявку-->
-    <div class="request" id="request">
+    <!--НАЧАЛО partners-->
+    <div class="partners" id="partners">
         <div class="uk-container uk-container-center">
-            <h2>Оставить заявку</h2>
-            <p>Возникли вопросы? <br>Оставьте свой номер и мы <br>перезвоним Вам!</p>
-            <form action="">
-                <label for="name">Ваше имя</label>
-                <input type="text" id="name">
-                <label for="phoneNumber">Номер телефона</label>
-                <input type="tel" id="phoneNumber">
-                <input type="submit" value="отправить">
-            </form>
-            <img src="img/request-hand.png" alt="Чистка" class="hand">
-        </div>
-    </div>
-    <!--КОНЕЦ оставить заявку-->
-
-    <!--НАЧАЛО новости (подраздел главной)-->
-    <div class="news" id="news">
-        <div class="uk-container uk-container-center">
-            <div class="uk-grid uk-grid-divider">
-                <div class="uk-width-medium-1-2">
-                    <h2>Новости</h2>
-                    <article>
-                        <h3><a href="single-article.html">Заголовок</a></h3>
-                        <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem, sitamet dictum velitveliteumagna.  Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem, sitamet dictum velitveliteumagna.</p>
-                    </article>
-                    <article>
-                        <h3><a href="single-article.html">Заголовок</a></h3>
-                        <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem, sitamet dictum velitveliteumagna.  Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem, sitamet dictum velitveliteumagna.</p>
-                    </article>
-                    <article>
-                        <h3><a href="single-article.html">Заголовок</a></h3>
-                        <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem, sitamet dictum velitveliteumagna.  Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem, sitamet dictum velitveliteumagna.</p>
-                    </article>
-                    <a href="articles-list.html" class="show-all">Читать все новости</a>
+            <h2>Наши партнёры</h2>
+            <div class="data-uk-slider uk-slidenav-position" data-uk-slider="{autoplay: true}">
+                <div class="uk-slider-container">
+                    <ul class="uk-slider uk-grid uk-grid-width-large-1-3 uk-grid-width-medium-1-2 uk-grid-width-small-1-1 uk-flex uk-flex-middle">
+                        <li>
+                            <a href="http://www.kinslowsystem.com/" target="_blank">
+                                <div class="img" style="background-image: url('img/partner-1.png')"></div>
+                                <h3>Фрэнк Кинслоу</h3>
+                                <p>
+                                    Lucid Sea, Inc.
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://thetahealing.com/" target="_blank">
+                                <div class="img" style="background-image: url('img/partner-2.jpg')"></div>
+                                <h3>Виана Стайбл</h3>
+                                <p>
+                                    Институт Знаний, г.Эмон, Айдахо, США
+                                </p></a>
+                        </li>
+                        <li>
+                            <a href="http://www.lotuswisdomacupuncture.com/" target="_blank">
+                                <div class="img" style="background-image: url('img/partner-3.jpg')"></div>
+                                <h3>Lotus Wisdom Acupuncture</h3>
+                                <p>
+                                    Калгари, Канада
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.orion-club.kz/pages/masterskaja-schastja-angel" target="_blank">
+                                <div class="img" style="background-image: url('img/partner-4.jpg')"></div>
+                                <h3>Мастерская Счастья "Ангел"</h3>
+                                <p>
+                                    Алматы, Казахстан
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="uk-width-medium-1-2">
-                    <h2>Статьи</h2>
-                    <article>
-                        <h3><a href="single-article.html">Заголовок</a></h3>
-                        <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem, sitamet dictum velitveliteumagna.  Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem, sitamet dictum velitveliteumagna.</p>
-                    </article>
-                    <article>
-                        <h3><a href="single-article.html">Заголовок</a></h3>
-                        <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem, sitamet dictum velitveliteumagna.  Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem, sitamet dictum velitveliteumagna.</p>
-                    </article>
-                    <article>
-                        <h3><a href="single-article.html">Заголовок</a></h3>
-                        <p>Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem, sitamet dictum velitveliteumagna.  Fusce tincidunt tellus eget tristique  cursus orci mi iaculis sem, sit amet dictum velit velit eu magna.  Fusce tinc dunt tellus eget tristique cursus orci mi iaculis sem, sitamet dictum velitveliteumagna.</p>
-                    </article>
-                    <a href="articles-list.html" class="show-all">Читать все статьи</a>
-                </div>
+                <a href="" class="uk-slidenav uk-slidenav-previous" data-uk-slider-item="previous">
+                    <img src="img/arrow-blue-prev.png" alt="Предыдущее фото">
+                </a>
+                <a href="" class="uk-slidenav uk-slidenav-next" data-uk-slider-item="next">
+                    <img src="img/arrow-blue-next.png" alt="Следущее фото">
+                </a>
             </div>
+
         </div>
     </div>
-    <!--КОНЕЦ новости (подраздел главной)-->
+    <!--КОНЕЦ partners-->
 
     <!--КОНЕЦ вопрос-ответ-->
     <div class="faq" id="faq">
@@ -404,6 +376,35 @@
     </div>
     <!--КОНЕЦ вопрос-ответ-->
 
+    <!--КОНЕЦ reviews-->
+    <div class="reviews" id="reviews">
+        <div class="uk-container uk-container-center">
+            <h2>Отзывы</h2>
+            <article>
+                <h3>Жанар Дуренова</h3>
+                <p>Получено много навыков, много практик. Были вещи, озвученные и проделанные в течении 3-х дней Базового курса, о которых я слышала ранее, но никогда не применяла в реальности. Очень надеюсь, что данный курс мне поможет в осуществлении моих планов задач. Все-таки практиковать гораздо легче, когда есть понимание кто это делать наилучшим и наивысшим образом для меня и близких. Спасибо Элле Николаевне за доступный материал, за множество примеров во время сессии, за помощь найти себя.</p>
+            </article>
+
+            <article>
+                <h3>Хакимова Кумурниса</h3>
+                <p>Мне очень понравился Тетахилинг. я намерена закончить полное обучение у Эллы Николаевны и пройти инструкторский курс у Вианы Стайбл. я поняла смысл в жизни, получила исцеление, обрела новых друзей. Приняла новые знания. Моя душа, жизнь и тело наполнились любовью и радостью. Я благодарю Создателя и учителя Э.Николаевну и всех людей, с кем я была знакома и с кем продолжаю знакомиться на тренингах. Спасибо!</p>
+            </article>
+
+            <article>
+                <h3>Альнара Абельдинова</h3>
+                <p>Я всегда за любые новые методы, но пришла на курсы с сомнениями: «Насколько оно мне надо» Первый день обучения у меня была ухмылка. На второй день я вроде бы приняла внутри этот метод. Но по возвращении домой опять были сомнения по поводу себя. Что я не смогу постичь всего этого, что нам дает Инструктор. На третий день во время медитаций допускала ошибки, хотя в первые два дня медитация проходила легко. Хотелось бы в любом случае пройти дальше продвинутые курсы. Есть желание. Будем ждать от «Творца» возможностей. Спасибо Вам, Элла Николаевна за новые границы и за наши раскрытые новые возможности.</p>
+            </article>
+
+            <article>
+                <h3>Лиза Ибраева</h3>
+                <p>Я довольна тем, что присоединилась к армии продвинутых и в то же время простых, добрых и любящих людей. Я смотрю на жизнь по-другому, в смысле того, что сняла много ограничений. Появилось ощущение простора, стала свободна от многого: мнительности, гордыни и т. д. Стала больше ценить любовь, безусловную любовь и поняла, что все помогает решить любовь. Элла Николаевна, вы классный учитель. Желаю вам от души здоровья и процветания.</p>
+            </article>
+
+            <a href="reviews.html" class="btn">Все отзывы</a>
+        </div>
+    </div>
+    <!--КОНЕЦ reviews-->
+
     <footer id="footer">
         <div class="uk-container uk-container-center">
             <img src="img/logo.png" alt="Лого" class="logo">
@@ -411,15 +412,15 @@
                 <h3>Контакты</h3>
                 <div class="address-container">
                     <h4>Адрес:</h4>
-                    <p class="address">г. Алматы ул. Тургут – Озала, д.136</p>
+                    <p class="address">г. Алматы Достык 105, 709 офис</p>
                 </div>
                 <div class="phone-number-container">
                     <h4>Телефон:</h4>
-                    <p><a class="phone-number" href="tel:+7 707 155 22 44">+7 707 155 22 44</a></p>
+                    <p><a class="phone-number" href="tel:+7 (727) 329‒23‒63">+7 727 329 23 63</a></p>
                 </div>
                 <div class="email-container">
                     <h4>E-mail:</h4>
-                    <p><a href="mailto:cc-Blesk@mail.ru" class="email">cc-Blesk@mail.ru</a></p>
+                    <p><a href="mailto:ella-kosmo@yandex.kz" class="email">ella-kosmo@yandex.kz</a></p>
                 </div>
                 <hr class="uk-grid-divider">
                 <div class="social-icons">
